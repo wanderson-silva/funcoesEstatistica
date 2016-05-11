@@ -12,9 +12,19 @@ function median(linf,n2,fant,fmd,h) {
   return linf+(((n2-fant)/fmd)*h);
 
 }
+/*media dados tabulados*/
 function mean(xifi,fi) {
   return xifi/fi;
 }
+/*funcoes dados brutos*/
+var somatorio = arr.reduce(function (a, b) { return a + b })
+var produto = arr.reduce(function (a, b) { return a * b })
+var media = (somatorio/tamanho)
+var mediaG = Math.pow(produto, 1 / tamanho)
+var mediaH = tamanho / (arr .map(function (num) {return 1 / num}));
+
+
+
 //SEPARATRIZ
 function quartis(linf,n,i,fant,h,fmd) {
   return (linf+((n-fant)/fmd).h);
@@ -24,6 +34,8 @@ function quartis(linf,n,i,fant,h,fmd) {
 function fra(arr) {
   return  (elementodoarray/n)*100;
 }
+
+/*exemplo*/
 var arr = [
 84,68,33,52,47,73,68,61,73,77,74,71,81,91,
 65,55,57,35,85,88,59,80,41,50,53,65,76,85,
