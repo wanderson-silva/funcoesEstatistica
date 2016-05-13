@@ -1,5 +1,5 @@
 'use strict';
- /**/
+/**/
 var tamanho = require('./tamanho');
 var media = require('./mediaAritmetica');
 var somatorio = require('./somatorio');

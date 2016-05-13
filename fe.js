@@ -38,9 +38,8 @@ var sumFi = fis.reduce(function() {
 /*
 fis é uma funcao q so pega os valores do objeto fi no caso as frequencias
 */
-var fis= Object.keys(fi).map(function (key) {
-  return fi[key];
-});
+var fis= Object.keys(fi).map(function (key) {return fi[key];});
+
 function separatriz(li,i,N,D,Fant,fmd,h){
 
 	var sep = (li+((i*(N/D)-Fant)/fmd)*h);
