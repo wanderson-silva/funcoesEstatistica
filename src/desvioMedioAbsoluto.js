@@ -5,9 +5,9 @@ var media = require('./mediaAritmetica');
 var somatorio = require('./somatorio');
 
 // ainda nao resolvi
-function desvioMedioAbsoluto (somatorio,media,tamanho){
+function desvioMedioAbsoluto (arr,somatorio,media,tamanho){
 
-	return (somatorio(x[i]-media)/tamanho);
+	return somatorio(arr[index]- media(arr))/tamanho(arr);
 
 }
 module.exports = desvioMedioAbsoluto;

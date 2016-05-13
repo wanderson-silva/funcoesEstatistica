@@ -2,7 +2,7 @@
 var somatorio = require('./somatorio');
 var tamanho = require('./tamanho');
 
-function mediaAritmetica (somatorio,tamanho) {
-  return (somatorio/tamanho);  
+function mediaAritmetica (arr,somatorio,tamanho) {
+  return (somatorio(arr)/tamanho(arr));
 }
 module.exports = mediaAritmetica;
