@@ -10,8 +10,14 @@
 var media = require('./mediaAritmetica');
 var tamanho = require('./tamanho');
 
-function desvioMedioAbsoluto () {
-  return arr.map(function(elemen){ return elemen - media;}).reduce(function (a,b){return a + b})/tamanho;
+function desvioMedioAbsoluto (values) {
+  return (1/tamanho)*(values.map(function(value) {
+     return Math.abs(value - media);
+     }).reduce(function (a,b){
+    return (a + b) ;
+    })
+  );
 }
+
 module.exports = desvioMedioAbsoluto;
 
