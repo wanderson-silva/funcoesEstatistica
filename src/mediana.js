@@ -3,7 +3,7 @@
 var tamanho = require('./tamanho');
 
 
-function quartilInferior (){
+function mediana (tamanho){
 	return (tamanho+1)/2;
 }
-module.exports = quartilInferior;
+module.exports = mediana;
