@@ -4,6 +4,7 @@
 /************************************************/
 /* @Author William Dias Vargas                  */
 /* v.0.1                                        */
+/*TA UMA ZONA ISSO AQUI ESTOU ORGANIZANDO DESDE JA PECO DESCULPAS*/
 /************************************************/
 'use strict';
  /*
