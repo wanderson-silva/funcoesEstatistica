@@ -1,9 +1,9 @@
 'use strict'
-/**/
-var maiorNum = require('./maiorNumero');
-var menorNum = require('./menorNumero');
+/* */
+var maiorNum = require('./maiorNumero.js')
+var menorNum = require('./menorNumero.js')
 
-function amplitudeTotal (maiorNum, menorNum) {
-  return maiorNum - menorNum;
+function amplitudeTotal (arr) {
+  return (maiorNum(arr) - menorNum(arr))
 }
-module.exports = amplitudeTotal;
+module.exports = amplitudeTotal

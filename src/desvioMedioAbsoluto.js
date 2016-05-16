@@ -1,7 +1,3 @@
-'use strict';
-
-/**/
-var tamanho = require('./tamanho');
 
  /*
  *var arr=[1,2,3]
@@ -10,17 +6,17 @@ var tamanho = require('./tamanho');
  *somatorio = 6
  *desvioMedioAbsoluto resultado esperado = 0.6667
  */
-'use strict';
-var media = require('./mediaAritmetica');
-var tamanho = require('./tamanho');
+'use strict'
+var media = require('./mediaAritmetica.js')
+var tamanho = require('./tamanho.js')
 
-function desvioMedioAbsoluto (values) {
-  return (1/tamanho)*(values.map(function(value) {
-     return Math.abs(value - media);
-     }).reduce(function (a,b){
-    return (a + b) ;
-    })
-  );
+function desvioMedioAbsoluto (arr) {
+  return (1 / tamanho(arr)) * (arr.map((elemen) => {
+    return (Math.abs(elemen - media(arr)))
+  }).reduce((a, b) => {
+    return (a + b)
+  })
+)
 }
 
-module.exports = desvioMedioAbsoluto;
+module.exports = desvioMedioAbsoluto

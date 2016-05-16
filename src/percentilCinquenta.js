@@ -1,8 +1,8 @@
-'use strict';
- /**/
-var tamanho = require('./tamanho');
+'use strict'
+ /* */
+var P = require('./p.js')
 
-function percentilCinquenta (tamanho){
-  return 50*(tamanho+1)/100;
+function percentilCinquenta (arr) {
+  return (50 * P)
 }
-module.exports = percentilCinquenta;
+module.exports = percentilCinquenta

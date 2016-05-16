@@ -1,8 +1,8 @@
-'use strict';
-var variancia = require('./variancia');
+'use strict'
+var variancia = require('./variancia.js')
 
-function desvioPadrao(variancia) {
-  return Math.sqrt(variancia);
+function desvioPadrao (arr) {
+  return (Math.sqrt(variancia(arr)))
 }
 
-module.exports = desvioPadrao;
+module.exports = desvioPadrao

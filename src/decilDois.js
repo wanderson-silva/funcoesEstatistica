@@ -1,7 +1,7 @@
-'use strict';
- /**/
-var tamanho = require('./tamanho');
-function decilDois (tamanho){
-  return 2*(tamanho+1)/10;
+'use strict'
+ /* */
+var D = require('./d.js')
+function decilDois (arr) {
+  return (2 * D)
 }
-module.exports = decilDois;
+module.exports = decilDois

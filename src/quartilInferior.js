@@ -1,8 +1,8 @@
-'use strict';
+'use strict'
  /**/
-var tamanho = require('./tamanho');
+var Q = require('./q.js')
 
-function quartilInferior (tamanho){
-	return (tamanho+1)/4;
+function quartilInferior (arr) {
+  return (1 * Q)
 }
-module.exports = quartilInferior;
+module.exports = quartilInferior

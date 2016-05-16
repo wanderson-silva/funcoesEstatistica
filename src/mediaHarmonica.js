@@ -1,9 +1,12 @@
 'use strict'
 /**/
-var tamanho = require('./tamanho');
+var tamanho = require('./tamanho.js')
 
-function mediaHarmonica (tamanho) {
-  return (tamanho / (arr .map(function (num) {return 1 / num}).reduce(function (a, b) { return a + b })))
+function mediaHarmonica (arr) {
+  return (tamanho(arr) / (arr .map((num) => {
+    return 1 / num
+  }).reduce((a, b) => { return a + b })
+    )
+  )
 }
-
-  module.exports = mediaHarmonica;
+module.exports = mediaHarmonica

@@ -1,8 +1,3 @@
-'use strict';
-
-/**/
-var tamanho = require('./tamanho');
-
  /*
  *var arr=[1,2,3]
  *media = 2
@@ -10,17 +5,18 @@ var tamanho = require('./tamanho');
  *somatorio = 6
  *desvioMedianaAbsoluto resultado esperado = 0.6667
  */
-'use strict';
-var media = require('./mediana');
-var tamanho = require('./tamanho');
+'use strict'
+var mediana = require('./mediana.js')
+var tamanho = require('./tamanho.js')
 
-function desvioMedioAbsoluto (values) {
-  return (1/tamanho)*(values.map(function(value) {
-     return Math.abs(value - mediana);
-     }).reduce(function (a,b){
-    return (a + b) ;
-    })
-  );
+function desvioMedianaAbsoluto (arr) {
+  return (1 / tamanho(arr)) * (arr.map((elemen) => {
+    return (Math.abs(elemen - mediana(arr)))
+  }).reduce((a, b) => {
+    return (a + b)
+  })
+  )
+  return null
 }
 
-module.exports = desvioMedianaAbsoluto;
+module.exports = desvioMedianaAbsoluto

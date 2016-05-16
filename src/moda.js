@@ -1,11 +1,13 @@
-'use strict';
+'use strict'
  /**/
- function moda (arr){
-   return arr.reduce(
-     function(a, b) { a[b] = (a[b] || 0) + 1;
-   return a;
- }, {});}
-module.exports = moda;
+
+function moda (arr) {
+  return (arr.reduce((a, b) => {
+    a[b] = (a[b] || 0) + 1
+    return a }
+))
+}
+module.exports = moda
 /*
 Ainda estou analisando essa...
 function moda(arr){

@@ -1,9 +1,9 @@
-'use strict';
- /**/
-var quartilInf = require('./quartilInf');
-var quartilSup = require('./quartilSup');
+'use strict'
+ /*	*/
+var quartilInf = require('./quartilInferior.js')
+var quartilSup = require('./quartilSuperior.js')
 
-function desvioQuartilitico (quartilSup, quartilInf){
-	return (quartilSup - quartilInf)/2;
+function desvioQuartilitico (arr) {
+  return ((quartilSup(arr) - quartilInf(arr)) / 2)
 }
-module.exports = desvioQuartilitico;
+module.exports = desvioQuartilitico

@@ -1,8 +1,10 @@
 'use strict'
 /**/
-var mediaAritmetica = require('./mediaAritmetica');
-function raizMediaQuadratica (mediaAritmetica) {
-    return Math.sqrt(Math.pow(mediaAritmetica, 2));
-  };
+var media = require('./mediaAritmetica.js')
 
-  module.exports = raizMediaQuadratica;
+function raizMediaQuadratica (arr) {
+  return (Math.sqrt(Math.pow(media(arr), (2))
+    )
+  )
+}
+module.exports = raizMediaQuadratica

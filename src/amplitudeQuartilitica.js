@@ -1,9 +1,9 @@
-'use strict';
- /**/
-var quartilInf = require('./quartilInf');
-var quartilSup = require('./quartilSup');
+'use strict'
+ /*	*/
+var quartilInferior = require('./quartilInferior.js')
+var quartilSuperior = require('./quartilSuperior.js')
 
-function amplitudeQuartilitica (quartilSup,quartilInf){
-	return (quartilSup - quartilInf);
+function amplitudeQuartilitica (arr) {
+  return (quartilSuperior(arr) - quartilInferior(arr))
 }
-module.exports = amplitudeQuartilitica;
+module.exports = amplitudeQuartilitica

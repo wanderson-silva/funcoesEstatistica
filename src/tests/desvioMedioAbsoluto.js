@@ -1,26 +1,32 @@
-'use strict';
+'use strict'
+var variancia = require('./variancia.js')
+var tamanho = require('./tamanho.js')
+var media = require('./mediaAritmetica.js')
 
-/**/
-var tamanho = require('./tamanho');
-
- /*
- *var arr=[1,2,3]
- *media = 2
- *tamanho = 3
- *somatorio = 6
- *desvioMedioAbsoluto resultado esperado = 0.6667
- */
-'use strict';
-var media = require('./mediaAritmetica');
-var tamanho = require('./tamanho');
-
-function desvioMedioAbsoluto (values) {
-  return (1/tamanho)*(values.map(function(value) {
-     return Math.abs(value - media);
-     }).reduce(function (a,b){
-    return (a + b) ;
+function desvioMedioAbsoluto (arr) {
+  return (1 / tamanho(arr)) * (arr.map((elemen) => {
+    return (Math.pow( P ),(2))))
+  }).reduce((a, b) => {
+    return (a + b)
     })
-  );
+  )
 }
 
-module.exports = desvioMedioAbsoluto;
+
+
+function variancia (arr) {
+  return (1 / tamanho(arr)) * (arr.map((elemen) => {
+    return Math.pow(Math.abs(elemen - media(arr)), (2))
+  }).reduce((a, b) => {
+    return (a + b)
+  })
+  )
+}
+
+
+
+function raizMediaQuadratica (arr) {
+  return (Math.sqrt(Math.pow(media(arr), (2))
+    )
+  )
+}

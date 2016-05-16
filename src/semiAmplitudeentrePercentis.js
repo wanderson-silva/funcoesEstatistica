@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 /**/
-var percentilNoventa = require('./percentilNoventa');
-var percentilDez = require('./percentilDez');
+var percentilNoventa = require('./percentilNoventa.js')
+var percentilDez = require('./percentilDez.js')
 
-function semiAmplitudeentrePercentis (percentilNoventa,percentilDez){
-  return (1/2)*(percentilNoventa - percentilNoventa);
+function semiAmplitudeentrePercentis (arr) {
+  return ((1 / 2) * (percentilNoventa(arr) - percentilDez(arr)))
 }
-module.exports = semiAmplitudeentrePercentis;
+module.exports = semiAmplitudeentrePercentis

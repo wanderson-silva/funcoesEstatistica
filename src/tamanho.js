@@ -1,6 +1,6 @@
 'use strict'
 /**/
-function tamanho (arr){
-return arr.length;
+function tamanho (arr) {
+  return (arr.length)
 }
-module.exports = tamanho;
+module.exports = tamanho

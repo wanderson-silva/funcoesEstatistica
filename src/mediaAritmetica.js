@@ -1,8 +1,8 @@
-'use strict';
-var somatorio = require('./somatorio');
-var tamanho = require('./tamanho');
+'use strict'
+var somatorio = require('./somatorio.js')
+var tamanho = require('./tamanho.js')
 
-function mediaAritmetica (arr,somatorio,tamanho) {
-  return (somatorio(arr)/tamanho(arr));
+function mediaAritmetica (arr) {
+  return (somatorio(arr) / tamanho(arr))
 }
-module.exports = mediaAritmetica;
+module.exports = mediaAritmetica
