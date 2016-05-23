@@ -1,0 +1,19 @@
+{
+  "name": "funcoes-estatistica",
+  "version": "1.0.0",
+  "description": "funcoes de estatistica aplicada",
+  "main": "fe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functions",
+    "tool"
+  ],
+  "author": "William Dias",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
