@@ -90,5 +90,34 @@ Repositório para funções de Estatística em JS
 
 ### Poligono de Frequencia Regularizado
 #### Tipos de curvas de Frequencia
-  * curvas de frequencia simetrica
-      curvas de frequencia simetrica ou em forma de sino
+  * curva de frequencia simetrica ou em forma de sino
+  * curva de frequencia moderadamente assimetrica ou desiguais.
+  * curva de frequencia em forma de `J` ou em `J` invertido.
+  * curva de frequencia em forma de `U`
+  * curva de frequencia bimodal
+  * curva de frequencia multimodal
+
+## MEDIA, MEDIANA, MODA E OUTRAS MEDIDAS DA TENDENCIA CENTRAL
+  * Xi--> (`i`) indice (`X`) representa qualquer um dos N valores
+  Simbolo de Sigma -> representa soma de todos os Xj
+  Simbolo de Sigma Xj = x1+x2+x3+Xn
+  Simbolo de Sigma = indica soma
+
+### MEDIA
+  É um valor tipico de um conjunto de dados. Os valores tendem a se focalizar no ponto central, em um conjunto de dados ordenado. as medias tambem sao denominados MEDIDAS DA TENDENCIA central.
+  * media aritmetica(media)
+  * mediana
+  * moda
+  * media geometrica
+  * media harmonica
+### MEDIA ARITMETICA : REPRESENTADA POR X BARRA EM CIMA
+inserir simbolo de media aritmetica.
+### MEDIA ARITMETICA PONDERADA
+  As vezes sao associadas aos numeros X1,X2,Xk a fatores de ponderacao ou pesos, w1,w2,wk
+  inserir uma foto de media ponderada
+  ex: simbolo media = (1)(70)+(1)(90)+(3)(85)/1+1+3 = 415/5 = 83
+
+  Propriedade das medias aritmeticas
+  inserir aqui as propriedades
+
+  C
