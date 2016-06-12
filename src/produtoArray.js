@@ -1,6 +1,6 @@
 'use strict'
 /**/
-function produtoArray (arr) {
+function produto (arr) {
   return arr.reduce((a, b) => { return a * b })
 }
-module.exports = produtoArray
+module.exports = produto

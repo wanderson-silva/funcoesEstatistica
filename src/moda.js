@@ -1,18 +1,9 @@
 'use strict'
  /**/
 
-function moda (arr) {
-  return (arr.reduce((a, b) => {
-    a[b] = (a[b] || 0) + 1
-    return a }
-))
-}
+ function moda (arr) {
+   return ((arr.sort((a, b) =>
+   (arr.filter(v => v === a).length) - (arr.filter(v => v === b).length))
+ ).pop())
+ }
 module.exports = moda
-/*
-Ainda estou analisando essa...
-function moda(arr){
-  return arr.reduce(    function(elemen, index) {
-      elemen[index] = (typeof elemen[index] == 'undefined') ? elemen[index] = 1 : elemen[index] += 1;
-      return elemen;
-  }, {})};
-  */
