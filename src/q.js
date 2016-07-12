@@ -1,8 +1,9 @@
-
 'use strict'
- /**/
-var tamanho = require('./tamanho.js')
+
+const length = require('fe-length')
 function Q (arr) {
-  return ((tamanho(arr) + 1) / 4)
+  console.log('(length(arr)', (length(arr))
+  console.log('((length(arr) + 1) / 4)', ((length(arr) + 1) / 4))
+  return ((length(arr) + 1) / 4)
 }
-module.exports = Q
+module.exports = { calc: Q }
