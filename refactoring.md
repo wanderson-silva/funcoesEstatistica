@@ -276,3 +276,5 @@ npm http request PUT http://registry.npmjs.org/fe-q
 npm http 200 http://registry.npmjs.org/fe-q
 + fe-q@1.0.0
 ```
+
+Pronto nosso módulo está publicado em [https://www.npmjs.com/package/fe-q](https://www.npmjs.com/package/fe-q)!
